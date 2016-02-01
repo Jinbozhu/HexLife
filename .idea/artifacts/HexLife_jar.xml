@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HexLife:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HexLife_jar</output-path>
+    <root id="archive" name="HexLife.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="HexLife" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/beust/jcommander/1.48/jcommander-1.48.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
