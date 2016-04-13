@@ -2,6 +2,7 @@ HexLife
 =============
 This is a variance of [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). Instead of having 8 neighbors, each cell in HexLife has 6 or 12 neighbors depending on your choice.
 
+-------------
 To run this program: 
 
 1. Change directory to /THE_PATH_TO_THE_FOLDER/HexLife/out/artifacts/HexLife_jar
@@ -22,4 +23,5 @@ To run this program:
 
 	-i p: specify the probabilty of a cell being alive in the initial configuration if no file is provided (default is .5)
 
+------------------
 For example, type "Java -jar HexLife.jar -12 -size 10 -f /Users/Jinbo/Desktop/board.txt" in the terminal, it will activate the 12-neighbor mode, the size of the board will be 10, and it will load the initial board from /Users/Jinbo/Desktop/board.txt.
